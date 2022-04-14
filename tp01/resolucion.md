@@ -17,19 +17,21 @@ clear;
 % Con clc limpiamos el command windows
 clc;
 % Con rand obtenemos valores aleatorios decimales entre 0 y 1, ej 0.0635
+% Con randi obtenemos valores aleatorios enteros positivos randi()
 % Con round obtenemos valores enteros redondeados
 % Generamos la matriz A de 20x25 con valores enteros positivos.
+% A = randi(100,20,25)
 A = round(10*(rand(20,25)));
 % Extraemos la matriz A1 de 3x8 desde la posición (5,5).
 A1 = A(5:7,5:12)
+A2=A
 % Primero eliminamos las columnas.
-A(:,11:14) = [];
+A2(:,11:14) = [];
 % Luego eliminamos las filas
-A(9:13,:) = []
+A2(9:13,:) = []
 ```
 
 2. Matriz de 5x10 de números aleatorios enteros de dos dígitos. Determinar la posición y valor del menor y del mayor.\
-`Esto es codigo`
 ```
 % -------------------------------------------------------------------------
 % TRABAJO CON MATRICES
@@ -56,7 +58,6 @@ A = randi([0,99],15,1)
 [min, posMin] = min (A)
 ```
 3. Matriz aleatoria de 10x20, valores enteros en el intervalo (-25 ; 75). Ordenar por filas (orden creciente). Ordenar por columnas (orden decreciente).\
-`Esto es codigo`
 ```
 ```
 4. Generar matriz de valores aleatorios binarios de 10x8, con un bit por celda.

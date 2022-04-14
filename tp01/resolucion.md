@@ -88,6 +88,7 @@ ColDec = sort(B,'descend')
 a1) Utilizar la función randi(); a2) utilizar la función rand() y ajustar para que no haya parte
 fraccionaria. Comparar ambos métodos.
 ```
+clear; clc;
 Arandi=randi([0 1],10,8)
 Arand=roud(rand(10,8))
 ```

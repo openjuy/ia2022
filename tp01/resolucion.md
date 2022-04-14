@@ -32,7 +32,10 @@ A2(:,11:14) = [];
 A2(9:13,:) = []
 ```
 
-2. Matriz de 5x10 de números aleatorios enteros de dos dígitos. Determinar la posición y valor del menor y del mayor.\
+2. Matriz de 5x10 de números aleatorios enteros de dos dígitos. Determinar la posición y valor del menor y del mayor.
+Dudas
+Existe una funcion que devuelva un valor que devuelva un valor con un par de indices y el valor maximo,
+Que pasa si hay mas de un maximo y mas de un minimo
 ```
 % -------------------------------------------------------------------------
 % TRABAJO CON MATRICES
@@ -60,6 +63,26 @@ A = randi([-99,99],5,10)
 ```
 3. Matriz aleatoria de 10x20, valores enteros en el intervalo (-25 ; 75). Ordenar por filas (orden creciente). Ordenar por columnas (orden decreciente).\
 ```
+% -------------------------------------------------------------------------
+% TRABAJO CON MATRICES
+% -------------------------------------------------------------------------
+% Matriz aleatoria de 10x20, valores enteros en el intervalo(-25;75). Ordenar
+% por filas(orden creciente). Ordenar por columnas(orden decreciente).
+% -------------------------------------------------------------------------
+% max
+% Elementos máximos de un array
+% M = max(A) devuelve los elementos máximos de un array.
+% -------------------------------------------------------------------------
+% [M,I] = max(___) encuentra los índices de los valores máximos de A y los
+% devuelve en el vector de salida I, utilizando cualquiera de los
+% argumentos de entrada de las sintaxis anteriores. Si el valor máximo se
+% produce más de una vez, max devuelve el índice correspondiente a la
+% primera aparición.
+% -------------------------------------------------------------------------
+clear; clc;
+A=randi([-25 75],10,20)
+FilAcs = sort(B,2)
+ColDec = sort(B,'descend')
 ```
 4. Generar matriz de valores aleatorios binarios de 10x8, con un bit por celda.
 a1) Utilizar la función randi(); a2) utilizar la función rand() y ajustar para que no haya parte

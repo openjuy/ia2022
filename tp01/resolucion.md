@@ -1,4 +1,5 @@
-# Resolucion del tp1
+# Inteligencia Artificial | Resolución del TP01
+## Integrantes
 
 | Apellido | Nombres |
 | ----------- | ----------- |
@@ -11,6 +12,13 @@
 
 1. Matriz A de 20x25 de valores enteros positivos. Extraer una matriz A1(3x8) desde la posición (5,5). Matriz A2 que resulte de la eliminación de las columnas 11 a 14 y las filas 9 a 13 de A.\
 `Esto es codigo`
+`clear; clc;
+% Con rand obtenemos valores aleatorios decimales entre 0 y 1, ej 0.0635
+% Con round obtenemos valores enteros redondeados
+% Generamos la matriz A de 20x25 con valores enteros positivos.
+A = round(10*(rand(20,25)));
+% Extraemos la matriz A1 de 3x8 desde la posición (5,5).`
+
 2. Matriz de 5x10 de números aleatorios enteros de dos dígitos. Determinar la posición y valor del menor y del mayor.\
 `Esto es codigo`
 3. Matriz aleatoria de 10x20, valores enteros en el intervalo (-25 ; 75). Ordenar por filas (orden creciente). Ordenar por columnas (orden decreciente).\

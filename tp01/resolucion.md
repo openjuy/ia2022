@@ -16,12 +16,12 @@
 Esto es un bloque de código
 
 ```
-% con `clear` borramos todas las variables del workspace
+% Con **clear** borramos todas las variables del workspace
 clear;
-% con `clc` limpiamos el command windows
+% Con **clc** limpiamos el command windows
 clc;
-% Con rand obtenemos valores aleatorios decimales entre 0 y 1, ej 0.0635
-% Con round obtenemos valores enteros redondeados
+% Con **rand** obtenemos valores aleatorios decimales entre 0 y 1, ej 0.0635
+% Con **round** obtenemos valores enteros redondeados
 % Generamos la matriz A de 20x25 con valores enteros positivos.
 A = round(10*(rand(20,25)));
 % Extraemos la matriz A1 de 3x8 desde la posición (5,5).

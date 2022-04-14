@@ -10,7 +10,7 @@
 ## Trabajo con matrices
 ### Generar matrices con las características que se indican:
 
-1. Matriz A de 20x25 de valores enteros positivos. Extraer una matriz A1(3x8) desde la posición (5,5). Matriz A2 que resulte de la eliminación de las columnas 11 a 14 y las filas 9 a 13 de A.\
+1. Matriz A de 20x25 de valores enteros positivos. Extraer una matriz A1(3x8) desde la posición (5,5). Matriz A2 que resulte de la eliminación de las columnas 11 a 14 y las filas 9 a 13 de A.
 ```
 % Con clear borramos todas las variables del workspace
 clear;
@@ -31,6 +31,29 @@ A(9:13,:) = []
 2. Matriz de 5x10 de números aleatorios enteros de dos dígitos. Determinar la posición y valor del menor y del mayor.\
 `Esto es codigo`
 ```
+% -------------------------------------------------------------------------
+% TRABAJO CON MATRICES
+% -------------------------------------------------------------------------
+% Matriz de 15 x 1 de números aleatorios enteros de dos dígitos. Determinar
+% la posición y valor del menor y del mayor.
+% -------------------------------------------------------------------------
+% max
+% Elementos máximos de un array
+% M = max(A) devuelve los elementos máximos de un array.
+% -------------------------------------------------------------------------
+% [M,I] = max(___) encuentra los índices de los valores máximos de A y los
+% devuelve en el vector de salida I, utilizando cualquiera de los
+% argumentos de entrada de las sintaxis anteriores. Si el valor máximo se
+% produce más de una vez, max devuelve el índice correspondiente a la
+% primera aparición.
+% -------------------------------------------------------------------------
+clear; clc;
+%
+A = randi([0,99],15,1)
+% Aquí calculamos el máximo y su posición.
+[max, posMax] = max (A)
+% Aquí calculamos en mínimo y su posición.
+[min, posMin] = min (A)
 ```
 3. Matriz aleatoria de 10x20, valores enteros en el intervalo (-25 ; 75). Ordenar por filas (orden creciente). Ordenar por columnas (orden decreciente).\
 `Esto es codigo`

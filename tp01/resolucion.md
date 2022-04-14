@@ -16,12 +16,20 @@
 Esto es un bloque de código
 
 ```
-clear; clc;
+% con `clear` borramos todas las variables del workspace
+clear;
+% con `clc` limpiamos el command windows
+clc;
 % Con rand obtenemos valores aleatorios decimales entre 0 y 1, ej 0.0635
 % Con round obtenemos valores enteros redondeados
 % Generamos la matriz A de 20x25 con valores enteros positivos.
 A = round(10*(rand(20,25)));
 % Extraemos la matriz A1 de 3x8 desde la posición (5,5).
+A1 = A(5:7,5:12)
+% Primero eliminamos las columnas.
+A(:,11:14) = [];
+% Luego eliminamos las filas
+A(9:13,:) = []
 ```
 
 2. Matriz de 5x10 de números aleatorios enteros de dos dígitos. Determinar la posición y valor del menor y del mayor.\

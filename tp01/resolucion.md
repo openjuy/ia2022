@@ -24,6 +24,7 @@ clc;
 A = round(10*(rand(20,25)));
 % Extraemos la matriz A1 de 3x8 desde la posición (5,5).
 A1 = A(5:7,5:12)
+% Asignamos A a A2 para poder eliminar las filas y columnas
 A2=A
 % Primero eliminamos las columnas.
 A2(:,11:14) = [];
@@ -36,7 +37,7 @@ A2(9:13,:) = []
 % -------------------------------------------------------------------------
 % TRABAJO CON MATRICES
 % -------------------------------------------------------------------------
-% Matriz de 15 x 1 de números aleatorios enteros de dos dígitos. Determinar
+% Matriz de 5 x 10 de números aleatorios enteros de dos dígitos. Determinar
 % la posición y valor del menor y del mayor.
 % -------------------------------------------------------------------------
 % max
@@ -51,7 +52,7 @@ A2(9:13,:) = []
 % -------------------------------------------------------------------------
 clear; clc;
 %
-A = randi([0,99],15,1)
+A = randi([-99,99],5,10)
 % Aquí calculamos el máximo y su posición.
 [max, posMax] = max (A)
 % Aquí calculamos en mínimo y su posición.

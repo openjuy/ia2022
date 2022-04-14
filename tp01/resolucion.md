@@ -1,6 +1,6 @@
-Resolucion del tp1
-# Trabajo con matrices
-## Generar matrices con las características que se indican:
+#Resolucion del tp1
+## Trabajo con matrices
+### Generar matrices con las características que se indican:
 
 1. Matriz A de 20x25 de valores enteros positivos. Extraer una matriz A1(3x8) desde la posición (5,5). Matriz A2 que resulte de la eliminación de las columnas 11 a 14 y las filas 9 a 13 de A.\
 `Esto es codigo`
@@ -12,6 +12,8 @@ Resolucion del tp1
 a1) Utilizar la función randi(); a2) utilizar la función rand() y ajustar para que no haya parte
 fraccionaria. Comparar ambos métodos.\
 `Esto es codigo`
-# Graficación
-## Desde la línea de comandos ejecutar las sentencias necesarias para graficar las siguientes funciones:
+## Graficación
+### Desde la línea de comandos ejecutar las sentencias necesarias para graficar las siguientes funciones:
 
+a. Funciones seno y coseno en el intervalo [0, 2π] con un mínimo de 100 puntos cada una, línea continua, color verde para tangente, grosor 2, marca x; color azul para secante, grosor 2, marca rombo. Graficar sobre el mismo sistema de ejes (ver comando hold on).
+b. y

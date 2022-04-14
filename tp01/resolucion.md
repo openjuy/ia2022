@@ -1,11 +1,13 @@
 # Resolucion del tp1
+
+| Apellido | Nombres |
+| ----------- | ----------- |
+| Heredia | Leonardo Antonio |
+| Madrid | Juan Sebastian |
+| Patiño | Judith Graciela |
+
 ## Trabajo con matrices
 ### Generar matrices con las características que se indican:
-
-| Syntax | Description |
-| ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |
 
 1. Matriz A de 20x25 de valores enteros positivos. Extraer una matriz A1(3x8) desde la posición (5,5). Matriz A2 que resulte de la eliminación de las columnas 11 a 14 y las filas 9 a 13 de A.\
 `Esto es codigo`

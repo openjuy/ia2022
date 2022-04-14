@@ -81,8 +81,8 @@ A = randi([-99,99],5,10)
 % -------------------------------------------------------------------------
 clear; clc;
 A=randi([-25 75],10,20)
-FilAcs = sort(B,2)
-ColDec = sort(B,'descend')
+FilAcs = sort(A,2)
+ColDec = sort(A,'descend')
 ```
 4. Generar matriz de valores aleatorios binarios de 10x8, con un bit por celda.
 a1) Utilizar la función randi(); a2) utilizar la función rand() y ajustar para que no haya parte
@@ -140,7 +140,7 @@ Conclusión: rand para números aleatorios uniformemente distribuidos, incluidos
 % linspace:
 % linspace(primero,último,número_de_elementos).
 % Observe el uso de comas (,) para separar las entradas de la función
-linspace.
+% linspace.
 % x = linspace(0,1,5)
 % -------------------------------------------------------------------------
 clear; clc;

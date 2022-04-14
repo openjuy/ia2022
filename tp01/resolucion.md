@@ -90,8 +90,9 @@ fraccionaria. Comparar ambos métodos.
 ```
 clear; clc;
 Arandi=randi([0 1],10,8)
-Arand=roud(rand(10,8))
+Arand=round(rand(10,8))
 ```
+Conclusión: rand para números aleatorios uniformemente distribuidos, incluidos números flotantes, mientras que randi para números enteros. 
 ## Graficación
 ### Desde la línea de comandos ejecutar las sentencias necesarias para graficar las siguientes funciones:
 

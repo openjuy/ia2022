@@ -7,7 +7,7 @@
 | Madrid | Juan Sebastian |
 | Patiño | Judith Graciela |
 
-![Texto alternativo](./PortadaTP1.png "Portada TP 1")
+![Texto alternativo](./PortaditaTP1.png "Portada TP 1")
 
 ## Trabajo con matrices
 ### Generar matrices con las características que se indican:

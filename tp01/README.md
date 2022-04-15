@@ -179,3 +179,39 @@ y2=exp(((x-5).^3)/0.5);
 plot(x,y2,'LineStyle','--','Color','c','LineWidth',2,'Marker','d')
 
 ```
+3. Graficar la función definida por partes que se indica. Cada intervalo debe contener por lo menos 20 puntos. Cada sección debe ser de un color diferente.
+```
+x=linspace(-10,-2,80)
+plot(x,-2.186*x-12.864,'b')
+hold on
+x=linspace(-2,0,20)
+plot(x,4.246*x,'g')
+x=linspace(0,10,100);
+y1=10.*exp(-0.05.*x-0.5).*sin(0.03.*(x.^2)+0.7.*x)
+plot(x,y1,'r')
+```
+## Series
+### Generar las series que se indican:
+1. Generar una serie de 33 números aleatorios enteros de 3 cifras, en el intervalo [100;200], ordenados de menor a mayor.
+```
+```
+2. Generar una serie S1 en el intervalo [0 ; 2] con un intervalo de /3.3 (usar el operador ‘:’).
+Generar una serie S2 en el mismo intervalo que contenga 7 elementos (usar la función linspace). Comparar ambas series y explicar sus diferencias.
+```
+```
+3. Explicar cuál es el problema al intentar generar las siguientes series:
+`>> [105 : 2.5 : 25]<┘`
+`>> [-5 : 21 : 9]`
+`>> [10 : 10 : 10]`
+`>> [p1/2 : p1/3 : pi/4]`
+`>> [x/2 : 4.7 : 25]`
+`>> [6 : log(1) : 9]`
+## Funciones en linea de comandos
+### Detectar e indicar cuál es el problema que ocurre al intentar escribir en Matlab las siguientes funciones, solucionarlo y escribirlas adecuadamente:
+```
+```
+## Cambio de escala(reescaladoi)
+## Ruido
+### Sobre la secuencia temporal generada por la ecuación:
+`y = -10 * sin(3*t) - 5`
+## Scripts

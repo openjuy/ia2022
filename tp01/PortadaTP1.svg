@@ -138,10 +138,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.0104048"
-     inkscape:cx="339.76438"
-     inkscape:cy="428.86096"
+     inkscape:cx="501.19165"
+     inkscape:cy="137.93063"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g2445-0"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1055"
@@ -156,7 +156,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -241,7 +241,7 @@
            y="534.51434"
            x="437.44861"
            sodipodi:role="line"
-           id="tspan4785">NÚMERO</tspan></text>
+           id="tspan4785">NÚMERICO</tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:22.74000168px;line-height:1.25;font-family:FreeSans;-inkscape-font-specification:'FreeSans Semi-Bold';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:5.12208748"

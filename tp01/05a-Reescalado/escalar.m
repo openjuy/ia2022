@@ -18,5 +18,7 @@ grid on
 
 polyin1 = polyshape(x1,y1);
 [CX1,CY1] = centroid(polyin1);
+
 plot(CX1,CY1,'g');
+
 hold on;

@@ -1,0 +1,12 @@
+clc, clear;
+fis = newfis('misys');
+
+fis = addvar(fis,'entrada','temperatura',[0 100]);
+
+
+fis = addmf(fis,'entrada',1,'frio','recortar',[0 30 60]);
+
+getfis(fis,'entrada',1)
+
+fis = rmmf(fis,'entrada',1,'mf',1);
+

@@ -27,3 +27,9 @@ resultado2=min(var1,var2)
 resultado3=max(resultado, resultado2)
 plot(x,resultado3,'r','linewidth',3);
 hold on;
+
+% c3) Precio No accesible XNOR calidad media
+resultado4=max(min(precio_accesible, 1 - calidad_media), min(1 - precio_accesible, calidad_media))
+plot(x,resultado4,'b','linewidth',3);
+xlabel('alcance');
+ylabel('mu');

@@ -1,10 +1,12 @@
 ### Considerando que la gráfica siguiente corresponde a una función que ya está implicada y agregada, defuzzyficar con los siguientes criterios:
 #### Calcular el centroide aplicando fórmulas para funciones regulares.
+
+![Texto alternativo](./01.png "Grafica")
 ```
-%Ejercicio 1 TP3
+%Ejercicio 1b TP3
 clear;
 clc;
-%Definimis el Universo de la variable 
+%Definimos el Universo discurso de la variable 
 x=[-1:0.01:1];
 %Grafica de la funcion implicada y agregada
 mu0=((x>=-1)&(x<=-0.8)).*((3.75).*(x)+(3.75))+((x>-0.8)&(x<-0.6))*(0.75)+((x>=-0.6)&(x<=-0.2))*(1)+((x>-0.2)&(x<=0.2)).*(x.*-1.25+0.75)+((x>0.2)&(x<=0.8))*(0.25)+(x>0.8)*(0);

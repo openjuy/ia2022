@@ -2,6 +2,8 @@
 #### Calcular el centroide aplicando fórmulas para funciones regulares.
 
 ![Texto alternativo](./01.png "Grafica")
+Dividimos la grafica en primitivas simples
+![Texto alternativo](./02.png "Particiones")
 ```
 1: Área de 1: b*h/2 = 0.2*0.75/2=0.075  x1= 2/3b =0.2*2/3=0.1333   y1= h/3=0.75/3=0.25
 2: Área de 2: b*h = 0.2*0.75=0.15  x2= b/2 =0.2/2=0.1   y2= h/2=0.75/2=0.375

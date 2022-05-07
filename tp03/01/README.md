@@ -1,9 +1,9 @@
 ### Considerando que la gráfica siguiente corresponde a una función que ya está implicada y agregada, defuzzyficar con los siguientes criterios:
 #### Calcular el centroide aplicando fórmulas para funciones regulares.
 
-![Texto alternativo](./01.png "Grafica")
+![Texto alternativo](./001.png "Grafica")
 #### Dividimos la grafica en primitivas simples
-![Texto alternativo](./02.png "Particiones")
+![Texto alternativo](./002.png "Particiones")
 #### Hacemos el calculo
 
 ```

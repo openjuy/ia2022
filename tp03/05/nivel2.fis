@@ -1,0 +1,32 @@
+[System]
+Name='nivel2'
+Type='mamdani'
+Version=2.0
+NumInputs=1
+NumOutputs=1
+NumRules=3
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='cantidadDeJabon'
+Range=[0 10]
+NumMFs=3
+MF1='escasa':'trimf',[-5 -5.551e-17 5]
+MF2='normal':'trimf',[0 5 10]
+MF3='mucha':'trimf',[5 10 15]
+
+[Output1]
+Name='cicloDeLavado'
+Range=[0 10]
+NumMFs=2
+MF1='corto':'trimf',[-10 -1.11e-16 10]
+MF2='largo':'trimf',[0 10 20]
+
+[Rules]
+2, 1 (1) : 2
+1, 1 (1) : 2
+3, 2 (1) : 1

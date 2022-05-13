@@ -29,14 +29,14 @@ Si no se implementan todas las reglas lo que puede ocurrir es que la salida (Def
     - Grado de suciedad (bajo, alto)
 - Variables de salida
     - Cantidad de jabón (Escasa, Normal, Mucha)
-![alt text](./nivel1.png)
+![alt text](./capturas/nivel1.png)
 ---
 - Nivel 2
 - Variables de entrada
     - Cantidad de jabón (Escasa, Normal, Mucha)
 - Variables de salida
     - Ciclo de lavado(Corto, Largo)
-![alt text](./nivel2.png)
+![alt text](./capturas/nivel2.png)
 ---
 - Nivel 3
 - Variables de entrada
@@ -44,7 +44,7 @@ Si no se implementan todas las reglas lo que puede ocurrir es que la salida (Def
     - Ciclo de lavado(Corto, Largo)
 - Variables de salida
     - TipoLavado (Rapido, Profundo)
-![alt text](./nivel3.png)
+![alt text](./capturas/nivel3.png)
 ---
 #### d Establecer el método de implicación y defuzzyficación para que el sistema opere adecuadamente.
 Metodo de implicacion
@@ -61,3 +61,7 @@ Centroide
 
 #### g Enunciar y resolver (y documentar) por lo menos cuatro casos de prueba del sistema, dos operando con los dos niveles iniciales y dos donde se incluyan los tres niveles.
 
+![alt text](./capturas/nivel2a.png)
+![alt text](./capturas/nivel2b.png)
+![alt text](./capturas/nivel3a.png)
+![alt text](./capturas/nivel3b.png)

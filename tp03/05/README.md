@@ -2,13 +2,13 @@
 ### a1) Si un sistema FIS dispone de n variables de entrada con m particiones cada una, ¿cuántas reglas de inferencia deberían implementarse para que todas las condiciones del sistema estén consideradas?
 
 ~~~
-1a Para que todas las condiciones del sistema esten consideredas, deberan tenerse en cuenta que las variables de entrada solo pueden hacer uso de una particion, no asi dos o mas particiones de una misma variable de entrada.
+El numero de reglas de inferencia es igual a n x m
 ~~~
 
 ### a2) ¿Qué puede ocurrir si no se implementan todas las reglas? Explicar
 
 ~~~
-2a Si no se implementan todas las reglas lo que puede ocurrir es que la salida (Defusificación) tenga un amplio margen de error. 
+Si no se implementan todas las reglas lo que puede ocurrir es que la salida (Defusificación) tenga un amplio margen de error. 
 ~~~
 
 ### b Un sistema para la regulación automática fuzzy, de las cantidades de jabón y tiempo de lavado que debe utilizar una lavadora industrial dispone de las siguientes reglas:
@@ -41,6 +41,8 @@
     - Cantidad de jabón(Escasa, Normal, Mucha)
     - Ciclo de lavado(Corto, Largo)
 - Variables de salida
+    - TipoLavado (Rapido, Profundo)
+---
 #### d Establecer el método de implicación y defuzzyficación para que el sistema opere adecuadamente.
 Metodo de implicacion
 ~~~

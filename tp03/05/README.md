@@ -28,7 +28,7 @@ Si no se implementan todas las reglas lo que puede ocurrir es que la salida (Def
     - Cantidad de ropa (Poca, Normal)
     - Grado de suciedad (bajo, alto)
 - Variables de salida
-    - Cantidad de jabón (Escasa, Normal, Mucha)
+    - Cantidad de jabón (Escasa, Normal, Mucha)\
 ![alt text](./capturas/nivel1fis.png)
 ![alt text](./capturas/nivel1ve1.png)
 ![alt text](./capturas/nivel1ve2.png)

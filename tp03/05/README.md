@@ -29,6 +29,12 @@ Si no se implementan todas las reglas lo que puede ocurrir es que la salida (Def
     - Grado de suciedad (bajo, alto)
 - Variables de salida
     - Cantidad de jabón (Escasa, Normal, Mucha)
+![alt text](./capturas/nivel1fis.png)
+![alt text](./capturas/nivel1ve1.png)
+![alt text](./capturas/nivel1ve2.png)
+![alt text](./capturas/nivel1vs.png)
+![alt text](./capturas/nivel1rules.png)
+![alt text](./capturas/nivel1rulesViewer.png)
 ![alt text](./capturas/nivel1.png)
 ---
 - Nivel 2

@@ -15,7 +15,7 @@ DefuzzMethod='centroid'
 Name='cantidadDeRopa'
 Range=[0 10]
 NumMFs=2
-MF1='poco':'trimf',[-10 0 10]
+MF1='poca':'trimf',[-10 0 10]
 MF2='normal':'trimf',[0 10 20]
 
 [Input2]

@@ -49,6 +49,19 @@ Si no se implementan todas las reglas lo que puede ocurrir es que la salida (Def
 ![alt text](./capturas/nivel2rulesViewer.png)
 ![alt text](./capturas/nivel2.png)
 ---
+#### d Establecer el método de implicación y defuzzyficación para que el sistema opere adecuadamente.
+Metodo de implicacion
+~~~
+Aqui sugerimos usar el metodo de mamdani
+~~~
+Defuzzyficación
+~~~
+Centroide
+~~~
+#### e Implementar los sistemas FIS correspondientes (puede usar la GUI fuzzy) para que el sistema funcione y produzca resultados.
+
+#### f Considerando que el sistema antes descripto funciona en dos niveles, investigar una situación adicional para implementar un tercer nivel en el sistema, que utilice como variables de entrada la variable de salida del nivel 1 y la variable de salida del nivel 2. (Orientación: puede ser por ejemplo un ciclo de secado, un periodo de extensión del lavado, un modo de lavado completo, u otro que se considere apropiado).
+---
 - Nivel 3
 - Variables de entrada
     - Cantidad de jabón(Escasa, Normal, Mucha)
@@ -63,23 +76,16 @@ Si no se implementan todas las reglas lo que puede ocurrir es que la salida (Def
 ![alt text](./capturas/nivel3rulesViewer.png)
 ![alt text](./capturas/nivel3.png)
 ---
-#### d Establecer el método de implicación y defuzzyficación para que el sistema opere adecuadamente.
-Metodo de implicacion
-~~~
-Aqui sugerimos usar el metodo de mamdani
-~~~
-Defuzzyficación
-~~~
-Centroide
-~~~
-#### e Implementar los sistemas FIS correspondientes (puede usar la GUI fuzzy) para que el sistema funcione y produzca resultados.
-
-#### f Considerando que el sistema antes descripto funciona en dos niveles, investigar una situación adicional para implementar un tercer nivel en el sistema, que utilice como variables de entrada la variable de salida del nivel 1 y la variable de salida del nivel 2. (Orientación: puede ser por ejemplo un ciclo de secado, un periodo de extensión del lavado, un modo de lavado completo, u otro que se considere apropiado).
-
 #### g Enunciar y resolver (y documentar) por lo menos cuatro casos de prueba del sistema, dos operando con los dos niveles iniciales y dos donde se incluyan los tres niveles.
-
+- Dos operandos con dos niveles iniciales
+    Varibles de entrada del nivel 1
+    - Cantidad de ropa (Poca, Normal)
+    - Grado de suciedad (bajo, alto)
+    Variable de salida del nivel 1
+    - Cantidad de jabón (Escasa, Normal, Mucha)\
 ![alt text](./capturas/nivel2a.png)
 ![alt text](./capturas/nivel2b.png)
+- Dos operandos con tres niveles iniciales\
 ![alt text](./capturas/nivel3a.png)
 ![alt text](./capturas/nivel3b.png)
 

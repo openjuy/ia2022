@@ -87,5 +87,5 @@ Centroide
 ![alt text](./capturas/nivel2b.png)
 - Dos operandos con tres niveles iniciales\
 ![alt text](./capturas/nivel3a.png)
-![alt text](./capturas/nivel3b.png)
+![alt text](./capturas/nivel3b.png)\
 [Explicación del punto g](https://youtu.be/CvbR4mp2Dqg)

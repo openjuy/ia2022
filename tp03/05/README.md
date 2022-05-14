@@ -77,7 +77,7 @@ Centroide
 ![alt text](./capturas/nivel3.png)
 ---
 #### g Enunciar y resolver (y documentar) por lo menos cuatro casos de prueba del sistema, dos operando con los dos niveles iniciales y dos donde se incluyan los tres niveles.
-- Dos operandos con dos niveles iniciales
+- Dos operandos con dos niveles iniciales\
     Varibles de entrada del nivel 1
     - Cantidad de ropa (Poca, Normal)
     - Grado de suciedad (bajo, alto)
@@ -88,5 +88,4 @@ Centroide
 - Dos operandos con tres niveles iniciales\
 ![alt text](./capturas/nivel3a.png)
 ![alt text](./capturas/nivel3b.png)
-
-[![Alternate Text]({image-url})]({https://youtu.be/CvbR4mp2Dqg} "Resolución")
+[Explicación del punto g](https://youtu.be/CvbR4mp2Dqg)

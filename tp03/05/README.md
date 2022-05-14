@@ -42,6 +42,11 @@ Si no se implementan todas las reglas lo que puede ocurrir es que la salida (Def
     - Cantidad de jabón (Escasa, Normal, Mucha)
 - Variables de salida
     - Ciclo de lavado(Corto, Largo)
+![alt text](./capturas/nivel2fis.png)
+![alt text](./capturas/nivel2ve1.png)
+![alt text](./capturas/nivel2vs.png)
+![alt text](./capturas/nivel2rules.png)
+![alt text](./capturas/nivel2rulesViewer.png)
 ![alt text](./capturas/nivel2.png)
 ---
 - Nivel 3

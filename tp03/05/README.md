@@ -41,7 +41,7 @@ Si no se implementan todas las reglas lo que puede ocurrir es que la salida (Def
 - Variables de entrada
     - Cantidad de jabón (Escasa, Normal, Mucha)
 - Variables de salida
-    - Ciclo de lavado(Corto, Largo)
+    - Ciclo de lavado(Corto, Largo)\
 ![alt text](./capturas/nivel2fis.png)
 ![alt text](./capturas/nivel2ve1.png)
 ![alt text](./capturas/nivel2vs.png)
@@ -54,7 +54,13 @@ Si no se implementan todas las reglas lo que puede ocurrir es que la salida (Def
     - Cantidad de jabón(Escasa, Normal, Mucha)
     - Ciclo de lavado(Corto, Largo)
 - Variables de salida
-    - TipoLavado (Rapido, Profundo)
+    - TipoLavado (Rapido, Profundo)\
+![alt text](./capturas/nivel3fis.png)
+![alt text](./capturas/nivel3ve1.png)
+![alt text](./capturas/nivel3ve2.png)
+![alt text](./capturas/nivel3vs.png)
+![alt text](./capturas/nivel3rules.png)
+![alt text](./capturas/nivel3rulesViewer.png)
 ![alt text](./capturas/nivel3.png)
 ---
 #### d Establecer el método de implicación y defuzzyficación para que el sistema opere adecuadamente.

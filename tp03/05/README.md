@@ -82,3 +82,5 @@ Centroide
 ![alt text](./capturas/nivel2b.png)
 ![alt text](./capturas/nivel3a.png)
 ![alt text](./capturas/nivel3b.png)
+
+[![Alternate Text]({image-url})]({https://youtu.be/CvbR4mp2Dqg} "Resolución")

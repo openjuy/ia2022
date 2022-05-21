@@ -88,7 +88,7 @@ ColDec = sort(A,'descend')
 ```
 4. Generar matriz de valores aleatorios binarios de 10x8, con un bit por celda.
 a1) Utilizar la función randi(); a2) utilizar la función rand() y ajustar para que no haya parte
-fraccionaria. Comparar ambos métodos.
+fraccionaria. Comparar ambos métodos.\
 a1)
 ```
 clear; clc;

@@ -89,9 +89,17 @@ ColDec = sort(A,'descend')
 4. Generar matriz de valores aleatorios binarios de 10x8, con un bit por celda.
 a1) Utilizar la función randi(); a2) utilizar la función rand() y ajustar para que no haya parte
 fraccionaria. Comparar ambos métodos.
+a1)
 ```
 clear; clc;
+% La funcion randi me entrega valores aleatorios en un rango que ingreso
 Arandi=randi([0 1],10,8)
+```
+a2)
+```
+clear; clc;
+% La funcion rand me entrega valores aleatorios entre 0 y 1
+% La funcion round me redondea al entero mas cercano
 Arand=round(rand(10,8))
 ```
 Conclusión: rand para números aleatorios uniformemente distribuidos, incluidos números flotantes, mientras que randi para números enteros. 

@@ -1,0 +1,31 @@
+[System]
+Name='punto4nivel2'
+Type='mamdani'
+Version=2.0
+NumInputs=1
+NumOutputs=1
+NumRules=2
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='cantidadDeJabon'
+Range=[0 100]
+NumMFs=3
+MF1='escasa':'trapmf',[-45 -5 5 45]
+MF2='normal':'trapmf',[5 45 55 95]
+MF3='mucha':'trapmf',[55 95 105 145]
+
+[Output1]
+Name='cicloDeLavado'
+Range=[0 100]
+NumMFs=2
+MF1='corto':'trimf',[-100 -8.882e-16 100]
+MF2='largo':'trimf',[0 100 200]
+
+[Rules]
+-3, 1 (1) : 1
+-3, 2 (1) : 1

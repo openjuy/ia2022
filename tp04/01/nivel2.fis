@@ -1,0 +1,30 @@
+[System]
+Name='nivel2'
+Type='mamdani'
+Version=2.0
+NumInputs=1
+NumOutputs=1
+NumRules=2
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='presion'
+Range=[0 2200]
+NumMFs=2
+MF1='baja':'trapmf',[0 600 800 1400]
+MF2='elevada':'trapmf',[1000 1800 1900 2200]
+
+[Output1]
+Name='entCombustible'
+Range=[0 10]
+NumMFs=2
+MF1='poca':'trapmf',[0 0 2 6]
+MF2='mucha':'trapmf',[5 9 10 10]
+
+[Rules]
+1, 2 (1) : 1
+2, 1 (1) : 1

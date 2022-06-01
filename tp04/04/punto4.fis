@@ -1,0 +1,47 @@
+[System]
+Name='punto4'
+Type='mamdani'
+Version=2.0
+NumInputs=2
+NumOutputs=1
+NumRules=9
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='temperatura'
+Range=[40 120]
+NumMFs=3
+MF1='frio':'trapmf',[10 30 60 80]
+MF2='templado':'trimf',[60 80 100]
+MF3='caliente':'trapmf',[80 100 120 130]
+
+[Input2]
+Name='humedad'
+Range=[20 100]
+NumMFs=3
+MF1='seco':'trapmf',[10 20 40 60]
+MF2='humedo':'trimf',[40 60 80]
+MF3='mojado':'trapmf',[60 80 100 110]
+
+[Output1]
+Name='velocidad'
+Range=[200 1400]
+NumMFs=3
+MF1='bajo':'trapmf',[100 200 500 750]
+MF2='medio':'trimf',[500 750 1000]
+MF3='alto':'trapmf',[750 1000 1400 1450]
+
+[Rules]
+1 1, 2 (1) : 1
+1 2, 3 (1) : 1
+1 3, 3 (1) : 1
+2 1, 1 (1) : 1
+2 2, 2 (1) : 1
+2 3, 3 (1) : 1
+3 1, 2 (1) : 1
+3 2, 3 (1) : 1
+3 3, 3 (1) : 1

@@ -1,0 +1,30 @@
+[System]
+Name='nivel1'
+Type='mamdani'
+Version=2.0
+NumInputs=1
+NumOutputs=1
+NumRules=2
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='temperatura'
+Range=[0 110]
+NumMFs=2
+MF1='baja':'gauss2mf',[10 45.9672219182764 10 50]
+MF2='alta':'trapmf',[54 74 90 110]
+
+[Output1]
+Name='presion'
+Range=[0 2200]
+NumMFs=2
+MF1='baja':'trapmf',[0 600 800 1400]
+MF2='elevada':'trapmf',[1000 1800 1900 2200]
+
+[Rules]
+2, 2 (1) : 1
+1, 1 (1) : 1

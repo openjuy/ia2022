@@ -1,0 +1,40 @@
+[System]
+Name='punto4nivel1'
+Type='mamdani'
+Version=2.0
+NumInputs=2
+NumOutputs=1
+NumRules=4
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='cantidadDeRopa'
+Range=[0 100]
+NumMFs=2
+MF1='poca':'trapmf',[-90 -10 10 90]
+MF2='normal':'trapmf',[10 90 110 190]
+
+[Input2]
+Name='gradoDeSuciedad'
+Range=[0 100]
+NumMFs=2
+MF1='bajo':'trapmf',[-90 -10 10 90]
+MF2='alto':'trapmf',[10 90 110 190]
+
+[Output1]
+Name='cantidadDeJabon'
+Range=[0 100]
+NumMFs=3
+MF1='escasa':'trapmf',[-45 -5 5 45]
+MF2='normal':'trapmf',[5 45 55 95]
+MF3='mucha':'trapmf',[55 95 105 145]
+
+[Rules]
+1 1, 1 (1) : 1
+1 2, 2 (1) : 1
+2 1, 1 (1) : 1
+2 2, 3 (1) : 1
